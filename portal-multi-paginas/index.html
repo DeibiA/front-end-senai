@@ -11,6 +11,7 @@
             padding: 0;
             box-sizing: content-box;
             list-style: none;
+            font-family:Arial, Helvetica, sans-serif;
         }
         header {
             display: flex;
@@ -29,8 +30,33 @@
         li {
             padding: 5px;
         }
+
+        #sobre {
+            margin: 15px;
+        }
+
+        #sobre > section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #sobre > h1 {
+            font-size: 120px;
+            letter-spacing: 20px;
+            color: rgba(0, 0, 0, 0.103);
+
+        }
+        section > p {
+            font-size: 30px;
+        }
+
+        #atracao {
+            padding: 0 50px;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <span>
@@ -42,13 +68,36 @@
 
         <nav>
             <ul id="links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#contato">Contato</a></li>
                 <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#atracao">Atrações</a></li>
                 <li><a href="#saibaMais">Saiba Mais</a></li>
             </ul>
         </nav>
     </header>
     <hr>
+
+    <main id="sobre">
+        <h1>Capitólio</h1>
+        <section>
+            <p><b>Capitólio: </b>é um município brasileiro no sudoeste de <b>Minas Gerais</b>, famoso pelo turismo de natureza e pelo imenso Lago de Furnas</p>
+            <img src="img/foto-capitolio.webp" alt="Uma foto da montanha principal em capitólio" width="450px">
+        </section>
+    </main>
+
+    <article id="atracao">
+        <h1>As Atrações Imperdíveis</h1>
+        <section>
+            <h2>Passeio de lanchas</h2>
+            <img src="img/passeio_lancha.jpg" alt="Uma lacha branca no meio de Capitólio">
+        </section>
+
+        <section>
+            <h2>Mirante dos Canyons</h2>
+            <h3> vista clássica de cima da rodovia</h3>
+            <img src="img/mirante.jpg" alt="Uma foto do Mirante dos Canyons, no alto da montanha" width="498px">
+        </section>
+    </article>
+
+
 </body>
 </html>
