@@ -68,7 +68,34 @@
                 </fieldset>
                 <br><br>
 
+                <fieldset>
+                    <legend>Sobre a doação</legend>
+                    <label for="animal">Qual animal você quer adotar?</label>
+                    <select name="animal" id="animal" required>
+                        <option value="">Selecione...</option>
+                        <option value="cao-pequeno">Cão de pequno porte</option>
+                        <option value="cao-medio">Cão de medio porte</option>
+                        <option value="gato">Gato (filhote ou adulto)</option>
+                    </select>
+                    <br><br>
+
+                    <p>Onde o pet vai morar?</p>
+                    <input type="radio" name="moradia" id="casa" value="casa" required>
+                    <label for="casa">Casa</label>
+                    <br>
+                    <input type="radio" id="apartamento" name="moradia" value="apartamento" required>
+                    <label for="apartameto">Apartemento</label>
+                    <br><br>
                 
+                    <label for="tempo">Horas por dia para dedicar ao pet:</label>
+                    <input type="range" id="tempo" name="tempo" min="1" max="12" value="4">
+                    <br><br>
+
+                    <label for="mensagem">Conte um pouco sobre você</label>
+                    <textarea name="mensagem" id="mensagem" rows="5" cols="40"></textarea>
+                </fieldset>
+
+               
             </form>
         </section>
     </main>
