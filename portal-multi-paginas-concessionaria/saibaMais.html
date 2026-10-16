@@ -1,54 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ficha técnica Haval H7 - All-car</title>
 </head>
 <body>
-        <header>
+    <header>
         <h1>All-car</h1>
-        <p>Temos veiculos dispóniveis para pronta entrega</p>
+        <p>Temos veículos disponíveis para pronta entrega</p>
 
         <nav>
+            <a href="index.html">Início</a>
             <a href="novos.html">Novos</a>
             <a href="semi-novos.html">Seminovos</a>
-            <a href="#servicos">Serviços</a>
+            <a href="contato.html">Contato</a>
         </nav>
     </header>
     <hr>
 
     <main>
-        <img src="img/haval-h7-gwm-v2.webp" alt="Imagem do último lançamento da GMW, o haval H7" width="800px">
         <section>
-            <h1>Haval H7</h1>
-            <h2>Luxury is living life</h2>
-            <p>SUV COMPACTO MAIS POTENTE DO BRASIL</p>
-            <a href="saibaMais.html">Saiba</a>
+            <img src="img/haval-h7.webp" alt="SUV Haval H7 roxo, visto em ângulo frontal e lateral, com faixa de luz na dianteira" width="640">
+            <h2>Haval H7</h2>
+            <h3>Luxury is living life</h3>
+            <p>SUV compacto mais potente do Brasil</p>
         </section>
-        <br>
 
-        <table border="1">
-            <caption>Fixa técnica do novo HAVAL-H7</caption>
+        <section>
+            <h2>Ficha técnica</h2>
 
-            <thead>
-                <tr>
-                    <th>Autonomia</th>
-                    <th>Cavalaria</th>
-                    <th>kgf.m</th>
-                    <th>Carregamento</th>
-                </tr>
-            </thead>
+            <table border="1" cellpadding="8">
+                <caption>Ficha técnica do novo Haval H7</caption>
 
-            <tbody>
-                <tr>
-                    <th>130km</th>
-                    <td>370cv</td>
-                    <td><br>760NM - 77 kgf.m</td>
-                    <td>30% a 80%em 20 minutos aproximadamente</td>
-                </tr>
-            </tbody>
-        </table>
+                <colgroup>
+                    <col style="background-color: #eef3ff;">
+                    <col>
+                    <col>
+                    <col>
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">Especificação</th>
+                        <th colspan="2" scope="colgroup">Dados</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Grupo</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Valor</th>
+                        <th scope="col">Observação</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="rowgroup" rowspan="2">Desempenho</th>
+                        <th scope="row">Potência</th>
+                        <td>370 cv</td>
+                        <td>272 kW</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Torque</th>
+                        <td>760 N·m</td>
+                        <td>77 kgf·m</td>
+                    </tr>
+                    <tr>
+                        <th scope="rowgroup" rowspan="3">Bateria</th>
+                        <th scope="row">Autonomia elétrica (WLTP)</th>
+                        <td>Até 130 km</td>
+                        <td>Ciclo WLTP*</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Autonomia elétrica (INMETRO)</th>
+                        <td>92 km</td>
+                        <td>Ciclo INMETRO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Carregamento rápido</th>
+                        <td>30% a 80%</td>
+                        <td>Cerca de 20 minutos</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">*Autonomia de até 130 km no modo elétrico segundo o ciclo WLTP e 92 km segundo o INMETRO.</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p><a href="novos.html">Voltar para veículos novos</a></p>
+        </section>
     </main>
+
+    <aside>
+        <h2>Informações da loja</h2>
+        <h3>Horário de atendimento</h3>
+        <p>Segunda a sexta, das 8h às 18h. Sábado, das 8h às 13h.</p>
+        <h3>Endereço</h3>
+        <address>Av. Exemplo, 1000 - Juiz de Fora, MG</address>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 All-car. Desenvolvido por Deibi Andrés.</p>
+    </footer>
 </body>
 </html>
